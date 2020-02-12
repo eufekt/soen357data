@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin:0;
+    padding: 0;
+}
+
+.app {
+    background-color: rgba(255, 255, 255, 0.575);
+    min-height: 100vh;
+    width: 100vw;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    height: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    font-size: 1.3em;
+}
+
+.abstraction {
+    font-size:0.8em;
+    color: gray;
+    text-decoration: underline;
+
+}
+
+p {
+    
+    text-align: justify;
+    line-height: 1.5em;
+    
+}
+
+.image {
+    width: 100%;
+}
+
+.figureDescriptor {
+    text-align: center;
+    color: green;
+}
