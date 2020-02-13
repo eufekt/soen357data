@@ -242,7 +242,7 @@ class App extends Component {
           <div className={styles.section}>
             <h2>Wireframes</h2>
             <p className={styles.paragraph}> 
-            text here
+            From the sketches, we have built the wireframes in order to provide a better understanding where each app functionality should be placed. The navigation of the application is clearly defined in this wireframe. The bottom of the views serve as the main navigation tool for users to seamlessly access the dashboard, their wallet and to browse for new subscriptions. Additionally, the sizes of subscriptions and modules were determined in the wireframes in order to provide a visual aesthetic which is spacious and modern. The purpose of the wireframe was to further explore the functionality of the app and to define the position of various app objects. This was an important step to translate the sketch into a fully fleshed mock-up.
             </p>
             <img className={styles.image} src="wireframe.png"/>
           </div>
