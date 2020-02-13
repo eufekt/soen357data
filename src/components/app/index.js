@@ -8,13 +8,13 @@ class App extends Component {
       <div className={styles.app}>
 
         <div className={styles.logo}>
-          <img src="pie-chart.png"/>
+          <img src="logo.svg"/>
           <span>FreeYourData</span>
         </div>
 
         <div className={styles.navbar}>
           <h4>
-            
+            Dezignz
           </h4>
         </div>
 
@@ -25,6 +25,7 @@ class App extends Component {
           </div>
         </div>
 
+       
         <div className={styles.container}>
       
           
