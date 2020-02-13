@@ -163,13 +163,20 @@ class App extends Component {
           <div className={styles.section}>
             <h2>User Personas</h2>
             <p className={styles.paragraph}>
-            When designing FreeYourData, it was crucial to not overlook the importance of brainstorming potential users of the application. For the purposes of our prototype design, we thought it would be most appropriate to present two unique user personas, which we feel represent the different needs that the app will need to address. To start, we created the persona of Samantha Fraser, who we feel will represent a very large portion of FreeYourData's users – young, tech savvy individuals within the 18-35 age range looking for more transparency and new means of earning income. Samantha, like many other young users, enjoys simplistic and intuitive user experiences, more control over her personal data, and wants access to innovative ways of managing her various online accounts. 
+            When designing FreeYourData, it was crucial to not overlook the importance of brainstorming potential users of the application. For the purposes of our prototype design, we thought it would be most appropriate to present two unique user personas, which we feel represent the different needs that the app will need to address.
+            </p>
+
+            <h3>Samantha Fraser</h3>
+            <p className={styles.paragraph}>
+             To start, we created the persona of Samantha Fraser, who we feel will represent a very large portion of FreeYourData's users – young, tech savvy individuals within the 18-35 age range looking for more transparency and new means of earning income. Samantha, like many other young users, enjoys simplistic and intuitive user experiences, more control over her personal data, and wants access to innovative ways of managing her various online accounts. 
             </p>
 
             <img className={styles.persona} src="samantha.png"/>
             <div className={styles.figureDescriptor}>
               (Figure 10) User Persona: Samantha Fraser
             </div>
+
+            <h3>Joe Hampton</h3>
             <p className={styles.paragraph}>
             Next, we introduce the persona of Joe Hampton. We feel Joe represents the opposite spectrum of user when compared with Samantha. Joe is a baby-boomer, who is less adept to new technologies, and more resistant to change. However, Joe is very concerned with privacy and having full transparency and control over his online data. Unlike Samantha, Joe has less trust in many popular online platforms, and we hope that the design of FreeYourData will entice users like Joe to become more engaged and active users by offering a sense of security and online transparency. Joe further reinforces the need to have a simplistic and intuitive user interface, so that users of all sorts of backgrounds can easily adapt to using FreeYourData.  
             </p>
