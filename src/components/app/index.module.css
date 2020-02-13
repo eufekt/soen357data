@@ -140,6 +140,11 @@ p {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.screen {
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .persona {
     width: 120%;
     height: 120%;
@@ -163,6 +168,11 @@ p {
     padding-top: 4%;
     width: 50%;
     float: left;
+}
+
+.panelContainer .middlePanel {
+    padding-top: 4%;
+    width: 33%;
 }
 
 .panelContainer .rightPanel {

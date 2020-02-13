@@ -254,6 +254,9 @@ class App extends Component {
             This sketch represents how FreeYourApp can be used. In the first view, the user is controlling one of the Google technology with his voice. The data is automatically gathered by Google and used for their purposes without any dignity.  In the second view, the user decides to subscribe to the Google FreeYourData suite. He is particularly interested in monitoring the data points gathered from Voice Controls. In the third view, the user continues to use Google voice recognition technology but the data is now passed to FreeYourData services. The user can now be compensated for providing his data to the company. In the last view, the user can exchange the accumulated  FYDs for a monetary value. 
             </p>
             <img className={styles.image} src="storyboard.png"/>
+            <div className={styles.figureDescriptor}>
+              Storyboard
+            </div>
           </div>
 
           {/* mock/prototype ------------------------------------------------------------------------------------------------------------------------------------*/}
@@ -262,53 +265,124 @@ class App extends Component {
             <p className={styles.paragraph}> 
             Screen number one seen in the embedded mockup window shows the welcome screen when a user first opens the application. It offers users the option to log into the platform by entering their email and password if they have a pre-existing account or to simply sign up as a new user. 
             </p>
-            <img className={styles.image} src="screen1.svg"/>
-
+            
+            <div className={styles.panelContainer}>
+              <div className={styles.middlePanel}>
+                <img className={styles.smallImage} src="screen1.svg"/>
+                <div className={styles.figureDescriptor}>
+                      View 1
+                </div>
+              </div>
+              <div className={styles.middlePanel}>
+                <img className={styles.smallImage} src="screen2.svg"/>
+                <div className={styles.figureDescriptor}>
+                      View 2
+                </div>
+              </div>
+              <div className={styles.middlePanel}>
+                <img className={styles.smallImage} src="screen3.svg"/>
+                <div className={styles.figureDescriptor}>
+                      View 3
+                </div>
+              </div>
+            </div>
+          
             <p className={styles.paragraph}> 
             Screen number two shows the core of our app, the dashboard. Here, the user can see all services to which they have subscribed in the past along with a small graph that provides a visual representation of their earnings up until the current date. The page also shows the exact number of FYDs they’ve accumulated since they’ve subscribed and is scrollable so that the user can see all of their subscribed apps. 
             </p>
-            <img className={styles.image} src="screen2.svg"/>
-
+ 
             <p className={styles.paragraph}> 
             Screen number three above, shows another important feature of the app, the wallet. Here the user has an overall breakdown of their collective earnings from their various subscriptions. The page also shows a visual representation of the users earning based on a quarterly basis. Lastly, this page gives the user the option to withdraw their FYDs into paypal by clicking on the provided button. 
             </p>
-            <img className={styles.image} src="screen3.svg"/>
 
+
+            <div className={styles.panelContainer}>
+              <div className={styles.leftPanel}>
+              <img className={styles.smallImage} src="screen4.svg"/>
+              <div className={styles.figureDescriptor}>
+                      View 4
+                </div>
+              </div>
+              <div className={styles.altRightPanel}>
+              <img className={styles.smallImage} src="screen5.svg"/>
+              <div className={styles.figureDescriptor}>
+                      View 5
+              </div>
+              </div>
+            </div>
+         
             <p className={styles.paragraph}> 
             Screen number four, shows the paypal login screen. This screen is reachable when the user has chosen to withdraw their earnings and has clicked on the withdraw button from the previous screen. The user is prompted with a paypal popup where they can enter their login information to complete the transaction. 
             </p>
-            <img className={styles.image} src="screen4.svg"/>
 
             <p className={styles.paragraph}> 
             Screen number five is our browse page. Here the user can browse all the different available subscription apps and options available and can even search for a specific app using the search bar provided. The screen also provides the user with the ability to see the different set of available apps in a left to right scrollable manner and shows them a list of the current trending or popular apps respective to their geo-location. Note that should the user already be subscribed to an app, the app will be displayed with a greyed out logo and a checkmark to indicate that the user is subscribed. 
             </p>
-            <img className={styles.image} src="screen5.svg"/>
 
+
+            <div className={styles.panelContainer}>
+              <div className={styles.middlePanel}>
+                <img className={styles.smallImage} src="screen6.svg"/>
+                <div className={styles.figureDescriptor}>
+                      View 6
+                </div>
+              </div>
+              <div className={styles.middlePanel}>
+                <img className={styles.smallImage} src="screen7.svg"/>
+                <div className={styles.figureDescriptor}>
+                      View 7
+                </div>
+              </div>
+              <div className={styles.middlePanel}>
+                <img className={styles.smallImage} src="screen8.svg"/>
+                <div className={styles.figureDescriptor}>
+                      View 8
+                </div>
+              </div>
+            </div>
+      
             <p className={styles.paragraph}> 
             Screen number six is reachable when a user has selected an app they are not subscribed to from the previous browse screen. Here, the user will see a general description of the selected “module” or app along with different subscription options they have. For example screen 6 shows the module for Google. It informs the user that they can choose what data they would like to share from a predefined set of data types. In the case of the Google module, these data types include Voice, Location, Face Recognition and Heart Rate. The user can see how many people are currently subscribed to a particular data type and can click on each available data type for more information. Alternatively, the user can select the Subscribe button at the top to quickly start sharing all data types associated with the module. 
             </p>
-            <img className={styles.image} src="screen6.svg"/>
 
             <p className={styles.paragraph}> 
             Screen number seven shows the information page for a particular data type. It informs the user exactly what type of data the user would be giving up should they subscribe along with the amount of FYDs they would gain per unit of sharing. Should the user want to subscribe they can do so by simply clicking on the toggle button provided. The screen indicates that no data has been collected for this data type in the past. Finally, the screen refers the user to an agreements clause where they can read such information in further detail. 
             </p>
-            <img className={styles.image} src="screen7.svg"/>
 
             <p className={styles.paragraph}> 
             Screen number eight is similar to that in number six, however it depicts the case when a user selects, from the browse page or from their dashboard, an app they have already subscribed to in the past. This Screen would give the user the same information provided in screen number seven with the addition of specifying which data types are already Active. It gives the user the option to quickly unsubscribe from all active modules by clicking the unsubscribe button at the top right of the screen. 
             </p>
-            <img className={styles.image} src="screen8.svg"/>
+
+
+            <div className={styles.panelContainer}>
+              <div className={styles.leftPanel}>
+              <img className={styles.smallImage} src="screen9.svg"/>
+              <div className={styles.figureDescriptor}>
+                      View 9
+                </div>
+              </div>
+              <div className={styles.altRightPanel}>
+              <img className={styles.smallImage} src="screen10.svg"/>
+              <div className={styles.figureDescriptor}>
+                      View 10
+              </div>
+              </div>
+            </div>
 
             <p className={styles.paragraph}> 
             Screen number nine is accessible when the user selects an already active data type from the previous screen. Here the user has the option to turn off this particular data type as well as to see the individual gains from sharing said data type. The user has 3 options for the breakdown of their gains; they can choose a monthly view, a yearly view or an all time view. 
             </p>
-            <img className={styles.image} src="screen9.svg"/>
 
             <p className={styles.paragraph}> 
             Screen number 10 is an additional screen that is exactly similar to that seen in screen 7. 
             </p>
-            <img className={styles.image} src="screen10.svg"/>
 
+
+
+            <h3>Interactive Mockup Demo</h3>
+            <p className={styles.paragraph}>
+              Here is an interactive mockup so you can see how to design will work in real-time:
+            </p>
 
             <div className={styles.prototype}>
               <Iframe iframe={iframe} />
