@@ -62,7 +62,7 @@ class App extends Component {
           <div className={styles.section}>
             <h2>User Personas</h2>
             <p className={styles.paragraph}>
-            When designing FreeYourData, it was crucial to not overlook the importance of brainstorming potential users of the application. For the purposes of our prototype design, we thought it would be most appropriate to present two unique user personas, which we feel represent the different needs that the app will need to address. To start, we created the persona of Samantha Fraser, who we feel will represent a very large portion of FreeYourData's users – young, tech savvy individuals.
+            When designing FreeYourData, it was crucial to not overlook the importance of brainstorming potential users of the application. For the purposes of our prototype design, we thought it would be most appropriate to present two unique user personas, which we feel represent the different needs that the app will need to address. To start, we created the persona of Samantha Fraser, who we feel will represent a very large portion of FreeYourData's users – young, tech savvy individuals within the 18-35 age range looking for more transparency and new means of earning income. Samantha, like many other young users, enjoys simplistic and intuitive user experiences, more control over her personal data, and wants access to innovative ways of managing her various online accounts. 
             </p>
 
             <img className={styles.persona} src="samantha.png"/>
@@ -70,13 +70,8 @@ class App extends Component {
               (Figure 1) User Persona: Samantha Fraser
             </div>
             <p className={styles.paragraph}>
-            Next, we introduce the persona of Joe Hampton. We feel Joe represent an often misunderstood demographic of the internet.
+            Next, we introduce the persona of Joe Hampton. We feel Joe represents the opposite spectrum of user when compared with Samantha. Joe is a baby-boomer, who is less adept to new technologies, and more resistant to change. However, Joe is very concerned with privacy and having full transparency and control over his online data. Unlike Samantha, Joe has less trust in many popular online platforms, and we hope that the design of FreeYourData will entice users like Joe to become more engaged and active users by offering a sense of security and online transparency. Joe further reinforces the need to have a simplistic and intuitive user interface, so that users of all sorts of backgrounds can easily adapt to using FreeYourData.  
             </p>
-
-            <p className={styles.paragraph}>
-              
-            </p>
-
             <img className={styles.persona} src="joe.png"/>
             <div className={styles.figureDescriptor}>
               (Figure 2) User Persona: Joe Hampton
@@ -113,6 +108,44 @@ class App extends Component {
             <div className={styles.figureDescriptor}>
               (Figure 4) Sketches of FreeYourData
             </div>
+          </div>
+
+          <div className={styles.section}>
+            <h2>Wireframes</h2>
+            <p className={styles.paragraph}> 
+            text here
+            </p>
+            <img className={styles.image} src="wireframe.png"/>
+          </div>
+
+          <div className={styles.section}>
+            <h2>Storyboard</h2>
+            <p className={styles.paragraph}> 
+            text here
+            </p>
+            <img className={styles.image} src="storyboard.png"/>
+          </div>
+
+          <div className={styles.section}>
+            <h2>Mock and Interactive Prototype</h2>
+            <p className={styles.paragraph}> 
+            text here
+            </p>
+            <img className={styles.image} src="mocks.png"/>
+          </div>
+
+          <div className={styles.section}>
+            <h2>Conclusion</h2>
+            <p className={styles.paragraph}>
+              text here 
+            </p>
+          </div>
+
+          <div className={styles.section}>
+            <h2>References</h2>
+            <p className={styles.paragraph}>
+              text here 
+            </p>
           </div>
       
           
