@@ -1,7 +1,14 @@
 import React, { Component } from 'react';
 import styles from './index.module.css';
 
+const iframe = '<iframe style="border: none; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" width="1000" height="562.5" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5MSAmeg3J7yv8gbkm18Zxo%2FSoen357_data%3Fnode-id%3D574%253A586%26scaling%3Dscale-down" allowfullscreen></iframe>';
+
+function Iframe(props) {
+    return (<div dangerouslySetInnerHTML={ {__html:  props.iframe?props.iframe:""}} />);
+  }
+
 class App extends Component {
+  
 
   render() {
     return (
@@ -248,7 +255,9 @@ class App extends Component {
             <p className={styles.paragraph}> 
             text here
             </p>
-            <img className={styles.image} src="mocks.png"/>
+            <div className={styles.prototype}>
+              <Iframe iframe={iframe} />
+            </div>
           </div>
 
           {/* conclusion ------------------------------------------------------------------------------------------------------------------------------------ */}
