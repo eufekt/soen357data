@@ -16,7 +16,36 @@ html {
     font-family: "helvetica";
     padding-top: 25px;
 }
-.container {
+
+.logo {
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 1.5em;
+}
+
+.logo img{
+    width: 6%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    /* background-color: rgb(120, 38, 231); */
+    background-image: linear-gradient(rgb(120, 38, 231), white);
+    color: black;
+}
+
+.navbar h4 {
+    font-family: "Helvetica";
+    font-weight: 100;
+    text-align: center;
+}
+
+.headerContainer {
     display: flex;
     flex-direction: column;
     width: 70vw;
@@ -26,10 +55,50 @@ html {
     font-size: 1.1em;
 }
 
+.container {
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    font-size: 1.1em;
+}
+
+.title {
+    font-family: "georgia, serif";
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.section {
+    padding-bottom: 24px;
+
+}
+
+.section h2{
+    margin-bottom: -8px;
+}
+
+.paragraph{
+    line-height: 2;
+}
+
 .abstraction {
-    font-size:0.7em;
-    /* color: rgba(0, 0, 0, 0.84); */
-    color: rgb(120, 38, 231);;
+    font-size:0.8em;
+    color: rgba(0, 0, 0, 0.84);
+    /* color: rgb(120, 38, 231);; */
+}
+
+.headerContainer .abstraction {
+    margin-top: -28px;
+}
+
+.container .abstraction {
+    margin-top: 12px;
+    margin-bottom: 32px;
+    color: rgb(120, 38, 231);
 }
 
 p {
@@ -40,7 +109,7 @@ p {
 }
 
 .image {
-    width: 100%;
+    width: 125%;
 }
 
 .figureDescriptor {
