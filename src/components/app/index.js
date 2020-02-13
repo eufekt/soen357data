@@ -136,7 +136,7 @@ class App extends Component {
 
             <h3>Fonts</h3>
             <p className={styles.paragraph}> 
-             TEXT HERE
+            The main font used in FreeYourData will be Apple SD Gothic Neo. This font was chosen for its simplicity, elegance and adaptability to various textual positions such as titles, subtitles, notes and descriptions. Besides the font itself, the team at Designz took care of adjusting the text properties in order to bring and spacious and fluid navigation.
             </p>
 
             <h3>Colour Palette</h3>
@@ -164,6 +164,13 @@ class App extends Component {
               </div>
             </div>
 
+          </div>
+
+          <div className={styles.section}>
+            <h2>FYDS</h2>
+            <p className={styles.paragraph}>
+            In order to transfer the data collected from the users, FreeYourData introduces an application currency which is called a FYD (FreeYourData). The users will receive FYDs in exchange for their data. Once a user has enough of this currency, he can exchange the FYDs for dollars depending on the present market value of this digital currency. One FYD will be given for a particular amount of data collected. The reason behind choosing to instore a digital currency for the app is to provide an independent asset for the compagnies so that they can define how much they are willing to exchange FYDs for the gathered data. Another intent to introduce FYDs is to provide some distance between monetary and data assets. One of the most important points behind the vision of FreeYourData is to make user data an asset which maintains its own intrinsic value.
+            </p>
           </div>
 
           {/* User Persona ------------------------------------------------------------------------------------------------------------------------------------ */}
@@ -223,7 +230,7 @@ class App extends Component {
           <div className={styles.section}>
             <h2>Sketches</h2>
             <p className={styles.paragraph}> 
-            text here
+            The sketches produced for FreeYourData were an initial point of research to determine the general flow of the application. It is from these sketches that the team from Designz has established the main views of the application: Dashboard, Wallet and Browse. The Dashboard represents the main view of the app where the user will be able to consult his subscriptions. The Browse view allows the user to explore new subscriptions that might be relevant to his activities. Finally, the Wallet view is where the user will be able to consult his FYD earnings and retrieve the monetary values. In the initial part  of the research, the sketches have raised important questions about the application design such as how would the compagnies define the data points to be gathered from the users and how these data points can be transferred to monetary values. Eventually, these questions were solved by the introduction of modules and FYD currency. In short, the modules that are part of a specific subscription would gather the data about a specific interaction of a user. As an example, the Google suite subscription has many modules. One such module is the voice module which will record all the data points related to voice activity. The modules will exchange user data for an average amount of FYDs.
             </p>
             <img className={styles.image} src="sketches.png"/>
             <div className={styles.figureDescriptor}>
@@ -244,7 +251,7 @@ class App extends Component {
           <div className={styles.section}>
             <h2>Storyboard</h2>
             <p className={styles.paragraph}> 
-            text here
+            This sketch represents how FreeYourApp can be used. In the first view, the user is controlling one of the Google technology with his voice. The data is automatically gathered by Google and used for their purposes without any dignity.  In the second view, the user decides to subscribe to the Google FreeYourData suite. He is particularly interested in monitoring the data points gathered from Voice Controls. In the third view, the user continues to use Google voice recognition technology but the data is now passed to FreeYourData services. The user can now be compensated for providing his data to the company. In the last view, the user can exchange the accumulated  FYDs for a monetary value. 
             </p>
             <img className={styles.image} src="storyboard.png"/>
           </div>
@@ -253,8 +260,56 @@ class App extends Component {
           <div className={styles.section}>
             <h2>Mock and Interactive Prototype</h2>
             <p className={styles.paragraph}> 
-            text here
+            Screen number one seen in the embedded mockup window shows the welcome screen when a user first opens the application. It offers users the option to log into the platform by entering their email and password if they have a pre-existing account or to simply sign up as a new user. 
             </p>
+            <img className={styles.image} src="screen1.svg"/>
+
+            <p className={styles.paragraph}> 
+            Screen number two shows the core of our app, the dashboard. Here, the user can see all services to which they have subscribed in the past along with a small graph that provides a visual representation of their earnings up until the current date. The page also shows the exact number of FYDs they’ve accumulated since they’ve subscribed and is scrollable so that the user can see all of their subscribed apps. 
+            </p>
+            <img className={styles.image} src="screen2.svg"/>
+
+            <p className={styles.paragraph}> 
+            Screen number three above, shows another important feature of the app, the wallet. Here the user has an overall breakdown of their collective earnings from their various subscriptions. The page also shows a visual representation of the users earning based on a quarterly basis. Lastly, this page gives the user the option to withdraw their FYDs into paypal by clicking on the provided button. 
+            </p>
+            <img className={styles.image} src="screen3.svg"/>
+
+            <p className={styles.paragraph}> 
+            Screen number four, shows the paypal login screen. This screen is reachable when the user has chosen to withdraw their earnings and has clicked on the withdraw button from the previous screen. The user is prompted with a paypal popup where they can enter their login information to complete the transaction. 
+            </p>
+            <img className={styles.image} src="screen4.svg"/>
+
+            <p className={styles.paragraph}> 
+            Screen number five is our browse page. Here the user can browse all the different available subscription apps and options available and can even search for a specific app using the search bar provided. The screen also provides the user with the ability to see the different set of available apps in a left to right scrollable manner and shows them a list of the current trending or popular apps respective to their geo-location. Note that should the user already be subscribed to an app, the app will be displayed with a greyed out logo and a checkmark to indicate that the user is subscribed. 
+            </p>
+            <img className={styles.image} src="screen5.svg"/>
+
+            <p className={styles.paragraph}> 
+            Screen number six is reachable when a user has selected an app they are not subscribed to from the previous browse screen. Here, the user will see a general description of the selected “module” or app along with different subscription options they have. For example screen 6 shows the module for Google. It informs the user that they can choose what data they would like to share from a predefined set of data types. In the case of the Google module, these data types include Voice, Location, Face Recognition and Heart Rate. The user can see how many people are currently subscribed to a particular data type and can click on each available data type for more information. Alternatively, the user can select the Subscribe button at the top to quickly start sharing all data types associated with the module. 
+            </p>
+            <img className={styles.image} src="screen6.svg"/>
+
+            <p className={styles.paragraph}> 
+            Screen number seven shows the information page for a particular data type. It informs the user exactly what type of data the user would be giving up should they subscribe along with the amount of FYDs they would gain per unit of sharing. Should the user want to subscribe they can do so by simply clicking on the toggle button provided. The screen indicates that no data has been collected for this data type in the past. Finally, the screen refers the user to an agreements clause where they can read such information in further detail. 
+            </p>
+            <img className={styles.image} src="screen7.svg"/>
+
+            <p className={styles.paragraph}> 
+            Screen number eight is similar to that in number six, however it depicts the case when a user selects, from the browse page or from their dashboard, an app they have already subscribed to in the past. This Screen would give the user the same information provided in screen number seven with the addition of specifying which data types are already Active. It gives the user the option to quickly unsubscribe from all active modules by clicking the unsubscribe button at the top right of the screen. 
+            </p>
+            <img className={styles.image} src="screen8.svg"/>
+
+            <p className={styles.paragraph}> 
+            Screen number nine is accessible when the user selects an already active data type from the previous screen. Here the user has the option to turn off this particular data type as well as to see the individual gains from sharing said data type. The user has 3 options for the breakdown of their gains; they can choose a monthly view, a yearly view or an all time view. 
+            </p>
+            <img className={styles.image} src="screen9.svg"/>
+
+            <p className={styles.paragraph}> 
+            Screen number 10 is an additional screen that is exactly similar to that seen in screen 7. 
+            </p>
+            <img className={styles.image} src="screen10.svg"/>
+
+
             <div className={styles.prototype}>
               <Iframe iframe={iframe} />
             </div>
