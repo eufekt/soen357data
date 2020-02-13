@@ -13,22 +13,23 @@ html {
     background-color: rgba(255, 255, 255, 0.575);
     min-height: 100vh;
     width: 100vw;
+    font-family: "helvetica";
+    padding-top: 25px;
 }
 .container {
     display: flex;
     flex-direction: column;
-    width: 60vw;
+    width: 70vw;
     height: 100%;
     box-sizing: border-box;
     margin: auto;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 .abstraction {
-    font-size:0.8em;
-    color: gray;
-    text-decoration: underline;
-
+    font-size:0.7em;
+    /* color: rgba(0, 0, 0, 0.84); */
+    color: rgb(120, 38, 231);;
 }
 
 p {
@@ -44,5 +45,6 @@ p {
 
 .figureDescriptor {
     text-align: center;
-    color: green;
+    padding: 12px;
+    color: rgb(120, 38, 231);;
 }

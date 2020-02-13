@@ -8,9 +8,9 @@ class App extends Component {
       <div className={styles.app}>
 
         <div className={styles.container}>
-          <h1>Steal Your data</h1>
+          <h1>Case Study: UX/UI Design of a Personal Data Marketplace</h1>
           <div className={styles.abstraction}>
-            This project was realized by Giselle Martelle, Firas Sawan and Nichita Hariton for the purposes of ...
+            Realized by Giselle Martel, Firas Sawan and Nichita Hariton for a project in UI/UX research for the Concordia Undergraduate course SOEN 357
           </div>
           
           <p>
