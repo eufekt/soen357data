@@ -46,17 +46,65 @@ class App extends Component {
           <div className={styles.section}>
             <h2>Research Methods</h2>
             <p className={styles.paragraph}>
-            The first and most important task we wanted to tackle was to establish the interest or need for such a service. We wanted to make sure that the everyday online user is in fact concerned about the various ways their data is being collected and used. Our aim was to test if there is enough interest for users to control their own data and earn money while doing so. We began by conducting a short survey via Google forms from which we were able to obtain data showing that about 92% of people are indeed concerned about how their every day data is being used. This survey also revealed that 92% of respondents would like to have more control and receive compensation for their role in the success of the tech industry and their marketing strategies. Answers collected through the survey conveyed that most people are specifically interested in having access to a subscription based mobile application that would allow them to see and control exactly what data is being used and collected with respect to their individual online presence and interests. 
+            The first and most important task we wanted to tackle was to establish the interest or need for such a service. We wanted to make sure that the everyday online user is in fact concerned about the various ways their data is being collected and used. Our aim was to test if there is enough interest for users to control their own data and earn money while doing so. We began by conducting a brief survey via a <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9Nbz4jcQSJiUeG2APWy9HHxVXPULGIqscSKOAURvigVTpSw/viewform?usp=sf_link">survey</a> from which we were able to obtain data showing that the majority of people do not feel comfortable about how their personal data may be used by online platforms. In addition, about 92% of respondents stated a desire to have more control over their personal data.
             </p>
+
+            <img className={styles.persona} src="question1.png"/>
+            <div className={styles.figureDescriptor}>
+              (Figure 1) Google Form Survey Question
+            </div>
+            <img className={styles.persona} src="response1.png"/>
+            <div className={styles.figureDescriptor}>
+              (Figure 2) Google Form Survey Response
+            </div>
+
+            <img className={styles.persona} src="question2.png"/>
+            <div className={styles.figureDescriptor}>
+              (Figure 3) Google Form Survey Question
+            </div>
+            <img className={styles.persona} src="response2.png"/>
+            <div className={styles.figureDescriptor}>
+              (Figure 4) Google Form Survey Response
+            </div>
+
             <p className={styles.paragraph}>
-            The second task was for us to determine the simplest possible way for such an app to operate and exist. We began our research by studying the design of various e-commerce applications widely available to the public. Such apps included the likes of Shopify, SquareSpace, 3dcart etc. which gave us an idea for the general layout for our application. Furthermore, this research gave us some insight into the main features that users enjoy when operating an ecommerce application. Such features include having a wallet directly in the app or the ability to use third party payment services such as PayPal or Apple Pay. In-app wallets are attractive to users, and in some cases can also influence their decisions concerning purchases.
+            This survey also revealed that 92% of respondents would like to have more control and receive compensation for their role in the success of the tech industry and their marketing strategies. Answers collected through the survey conveyed that most people are specifically interested in having access to a subscription based mobile application that would allow them to see and control exactly what data is being used and collected with respect to their individual online presence and interests. 
             </p>
+
+            <img className={styles.persona} src="question4.png"/>
+            <div className={styles.figureDescriptor}>
+              (Figure 5) Google Form Survey Question
+            </div>
+            <img className={styles.persona} src="response4.png"/>
+            <div className={styles.figureDescriptor}>
+              (Figure 6) Google Form Survey Response
+            </div>
+
+            <p className={styles.paragraph}>
+            The second task was for us to determine the simplest possible way for such an app to operate and exist. We began our research by studying and taking inspiration from the design of various e-commerce applications widely available to the public. Such apps included the likes of Shopify, SquareSpace, 3dcart etc. which gave us an idea for the general layout for our application. Furthermore, this research gave us some insight into the main features that users enjoy when operating an ecommerce application. Such features include having a wallet directly in the app or the ability to use third party payment services such as PayPal or Apple Pay. In-app wallets are attractive to users, and in some cases can also influence their decisions concerning purchases. 
+            </p>
+
             <p className={styles.paragraph}>
             Another place from which we drew inspiration was the user experience typical of most trading applications. These applications tend to give a detailed breakdown of the history of a particular stock, and they show statistics and graphs that provide the user with visuals that are important for the user to feel as if they are up to date and educated on how their assets are doing. We thought that such graphs and statistics could help our users understand exactly what, when, where and by whom their data is being used and give them the opportunity to control what they share.  
             </p>
             <p className={styles.paragraph}> 
-            Finally, concerning our choice of the color palette for our app, it was crucial that we perform research on colors associated with trust and positive energy. Such a decision to go with color that exude these qualities was imperative since the main goal of our app is to provide our users with a feeling of safety and control. Thus, our choice of using a yellow color palette was carefully and specifically made with the aim to design a safe space where our users can ensure that their data is only being used with their discretion and according to their tailored specifications. 
+            Finally, concerning our choice of the color palette for our app, it was crucial that we perform research on colors associated with trust and positive energy. Such a decision to go with color that exude these qualities was imperative since the main goal of our app is to provide our users with a feeling of safety and control. Thus, our choice of using a blue colour palette was carefully and specifically made with the aim to design a safe space where our users can ensure that their data is only being used with their discretion and according to their tailored specifications. Blue also gives the user a sense of calmness. We initially compiled a list of 4 colour palettes all containing the same hue of blue, but with different colour accents. We included another question in our survey which asked the respondent for their preference. Out of all the options, this was the one which was most popular with about 56% of respondents indicating their preference for it: 
             </p>
+
+            <img className={styles.persona} src="question3.png"/>
+            <div className={styles.figureDescriptor}>
+              (Figure 7) Google Form Survey Question
+            </div>
+            <img className={styles.persona} src="response3.png"/>
+            <div className={styles.figureDescriptor}>
+              (Figure 8) Google Form Survey Response
+            </div>
+
+            <img className={styles.persona} src="palette1.png"/>
+            <div className={styles.figureDescriptor}>
+              (Figure 9) The winning palette
+            </div>
+
           </div>
 
           <div className={styles.section}>
