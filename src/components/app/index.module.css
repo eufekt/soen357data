@@ -112,11 +112,20 @@ p {
 }
 
 .image {
-    width: 100%;
+    width: 120%;
+    height: 120%;
+    margin-left: -10%;
     margin-top: 24px;
     margin-bottom: 0px;
     padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(120, 38, 231, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.persona {
+    width: 120%;
+    height: 120%;
+    margin-left: -10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .figureDescriptor {
