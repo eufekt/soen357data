@@ -35,19 +35,14 @@ html {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
-    box-sizing: border-box;
     background-color: #a36ff7;
-    /* background-color: #6ff7da; */
-    /* background-image: linear-gradient(#a36ff7, #6f8df7); */
-    color: black;
 }
 
 .navbar h4 {
     color: white;
     font-size: 2em;
     font-weight: 100;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     text-align: center;
 }
 
@@ -117,11 +112,13 @@ p {
 }
 
 .image {
-    width: 125%;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 0px;
 }
 
 .figureDescriptor {
     text-align: center;
+    font-size: 12px;
     padding: 12px;
-    color: rgb(120, 38, 231);;
 }
