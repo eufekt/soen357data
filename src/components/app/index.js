@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styles from './index.module.css';
 
-const iframe = '<iframe style="border: none; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" width="1000" height="562.5" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5MSAmeg3J7yv8gbkm18Zxo%2FSoen357_data%3Fnode-id%3D574%253A586%26scaling%3Dscale-down" allowfullscreen></iframe>';
+const iframe = '<iframe style="border: none; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" width="100%" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5MSAmeg3J7yv8gbkm18Zxo%2FSoen357_data%3Fnode-id%3D574%253A586%26scaling%3Dscale-down" allowfullscreen></iframe>';
 
 function Iframe(props) {
     return (<div dangerouslySetInnerHTML={ {__html:  props.iframe?props.iframe:""}} />);
@@ -20,21 +20,32 @@ class App extends Component {
         </div>
 
         <div className={styles.navbar}>
+          
           <h4>
             Dezignz
           </h4>
+
+          <a href="#intro"><h3>Introduction</h3></a>
+          <a href="#research"><h3>Research</h3></a>
+          <a href="#FYDS"><h3>FYDS</h3></a>
+          <a href="#personas"><h3>Personas</h3></a>
+          <a href="#userflow"><h3>User Flow</h3></a>
+          <a href="#sketches"><h3>Sketches</h3></a>
+          <a href="#wireframe"><h3>Wireframe</h3></a>
+          <a href="#storyboard"><h3>Storyboard</h3></a>
+          <a href="#mock"><h3>Mock</h3></a>
         </div>
 
         <div className={styles.headerContainer}>
           <h1 className={styles.title}>Case Study: UX/UI Design of a Personal Data Marketplace</h1>
           <div className={styles.abstraction}>
-            Giselle Martel, Firas Sawan and Nichita Hariton
+            Giselle Martel - 26352936, Firas Sawan - 26487815, and Nichita Hariton - 40052663
           </div>
         </div>
 
        {/* introduction ------------------------------------------------------------------------------------------------------------------------------------*/}
         <div className={styles.container}>
-          <div className={styles.section}>
+          <div id="intro" className={styles.section}>
             <h2>Introduction</h2>
             <p className={styles.paragraph}>
               At Dezignz, we are constantly on the lookout for new challenges and innovative products that require visionary and creative design. So when we were approached by FreeYourData and their idea for a new personal data marketplace, we had no choice but to accept their offer to design the application from start to finish. FreeYourData is a company that wishes to liberate users of modern technology, by offering them a means of controlling their own personal data, rather than trusting the management of such data with tech giants such as Google, Facebook, Uber, and the like. Data such as fitness tracking information, smartphone data, GPS location, and IoT use are among many categories of personal data that FreeYourData will allow you to have complete ownership over, and give you the power to sell your data to whom you chose. 
@@ -49,7 +60,7 @@ class App extends Component {
           </div>
 
           {/* research methods ------------------------------------------------------------------------------------------------------------------------------------*/}
-          <div className={styles.section}>
+          <div id="research" className={styles.section}>
             <h2>Research Methods</h2>
             <h3>User Needs & Desires</h3>
             <p className={styles.paragraph}>
@@ -119,13 +130,13 @@ class App extends Component {
               <div className={styles.leftPanel}>
                 <img className={styles.extraSmallImage} src="inspiration1.jpg"/>
                 <div className={styles.figureDescriptor}>
-                  Shopify app
+                  (Figure 7) Shopify app
                 </div>
               </div>
               <div className={styles.altRightPanel}>
                 <img className={styles.extraSmallImage} src="inspiration2.jpg"/>
                 <div className={styles.figureDescriptor}>
-                 TD Ameritrade app
+                (Figure 8) TD Ameritrade app
                 </div>
               </div>
             </div>
@@ -149,24 +160,24 @@ class App extends Component {
               <div className={styles.leftPanel}>
                 <img className={styles.smallImage} src="question3.png"/>
                 <div className={styles.figureDescriptor}>
-                  (Figure 7) Google Form Survey Question
+                  (Figure 9) Google Form Survey Question
                 </div>
               </div>
               <div className={styles.altRightPanel}>
                 <img className={styles.smallImage} src="response3.png"/>
                 <div className={styles.figureDescriptor}>
-                  (Figure 8) Google Form Survey Response
+                  (Figure 10) Google Form Survey Response
                 </div>
                 <img className={styles.smallImage} src="palette1.png"/>
                 <div className={styles.figureDescriptor}>
-                  (Figure 9) The winning palette
+                  (Figure 11) The winning palette
                 </div>
               </div>
             </div>
 
           </div>
 
-          <div className={styles.section}>
+          <div id="FYDS" className={styles.section}>
             <h2>FYDS</h2>
             <p className={styles.paragraph}>
             In order to transfer the data collected from the users, FreeYourData introduces an application currency which is called a FYD (FreeYourData). The users will receive FYDs in exchange for their data. Once a user has enough of this currency, he can exchange the FYDs for dollars depending on the present market value of this digital currency. One FYD will be given for a particular amount of data collected. The reason behind choosing to instore a digital currency for the app is to provide an independent asset for the compagnies so that they can define how much they are willing to exchange FYDs for the gathered data. Another intent to introduce FYDs is to provide some distance between monetary and data assets. One of the most important points behind the vision of FreeYourData is to make user data an asset which maintains its own intrinsic value.
@@ -174,7 +185,7 @@ class App extends Component {
           </div>
 
           {/* User Persona ------------------------------------------------------------------------------------------------------------------------------------ */}
-          <div className={styles.section}>
+          <div id="personas" className={styles.section}>
             <h2>User Personas</h2>
             <p className={styles.paragraph}>
             When designing FreeYourData, it was crucial to not overlook the importance of brainstorming potential users of the application. For the purposes of our prototype design, we thought it would be most appropriate to present two unique user personas, which we feel represent the different needs that the app will need to address.
@@ -187,7 +198,7 @@ class App extends Component {
 
             <img className={styles.persona} src="samantha.png"/>
             <div className={styles.figureDescriptor}>
-              (Figure 10) User Persona: Samantha Fraser
+              (Figure 12) User Persona: Samantha Fraser
             </div>
 
             <h3>Joe Hampton</h3>
@@ -196,13 +207,13 @@ class App extends Component {
             </p>
             <img className={styles.persona} src="joe.png"/>
             <div className={styles.figureDescriptor}>
-              (Figure 11) User Persona: Joe Hampton
+              (Figure 13) User Persona: Joe Hampton
             </div>
           </div>
 
 
           {/* User flow chart ------------------------------------------------------------------------------------------------------------------------------------*/}
-          <div className={styles.section}>
+          <div id="userflow" className={styles.section}>
           <h2>User Flow Chart</h2>
 
             <p className={styles.paragraph}>
@@ -215,7 +226,7 @@ class App extends Component {
 
             <img className={styles.image} src="user-flowchart.png"/>
             <div className={styles.figureDescriptor}>
-              (Figure 12) User Flowchart
+              (Figure 14) User Flowchart
             </div>
 
             <p className={styles.paragraph}>
@@ -227,19 +238,19 @@ class App extends Component {
           </div>
 
           {/* sketches ------------------------------------------------------------------------------------------------------------------------------------ */}
-          <div className={styles.section}>
+          <div id="sketches" className={styles.section}>
             <h2>Sketches</h2>
             <p className={styles.paragraph}> 
             The sketches produced for FreeYourData were an initial point of research to determine the general flow of the application. It is from these sketches that the team from Designz has established the main views of the application: Dashboard, Wallet and Browse. The Dashboard represents the main view of the app where the user will be able to consult his subscriptions. The Browse view allows the user to explore new subscriptions that might be relevant to his activities. Finally, the Wallet view is where the user will be able to consult his FYD earnings and retrieve the monetary values. In the initial part  of the research, the sketches have raised important questions about the application design such as how would the compagnies define the data points to be gathered from the users and how these data points can be transferred to monetary values. Eventually, these questions were solved by the introduction of modules and FYD currency. In short, the modules that are part of a specific subscription would gather the data about a specific interaction of a user. As an example, the Google suite subscription has many modules. One such module is the voice module which will record all the data points related to voice activity. The modules will exchange user data for an average amount of FYDs.
             </p>
             <img className={styles.image} src="sketches.png"/>
             <div className={styles.figureDescriptor}>
-              (Figure 13) Sketches of FreeYourData
+              (Figure 15) Sketches of FreeYourData
             </div>
           </div>
 
           {/* wireframe ------------------------------------------------------------------------------------------------------------------------------------ */}
-          <div className={styles.section}>
+          <div id="wireframe" className={styles.section}>
             <h2>Wireframes</h2>
             <p className={styles.paragraph}> 
             From the sketches, we have built the wireframes in order to provide a better understanding where each app functionality should be placed. The navigation of the application is clearly defined in this wireframe. The bottom of the views serve as the main navigation tool for users to seamlessly access the dashboard, their wallet and to browse for new subscriptions. Additionally, the sizes of subscriptions and modules were determined in the wireframes in order to provide a visual aesthetic which is spacious and modern. The purpose of the wireframe was to further explore the functionality of the app and to define the position of various app objects. This was an important step to translate the sketch into a fully fleshed mock-up.
@@ -248,19 +259,19 @@ class App extends Component {
           </div>
 
           {/* storyboard ------------------------------------------------------------------------------------------------------------------------------------ */}
-          <div className={styles.section}>
+          <div id="storyboard" className={styles.section}>
             <h2>Storyboard</h2>
             <p className={styles.paragraph}> 
             This sketch represents how FreeYourApp can be used. In the first view, the user is controlling one of the Google technology with his voice. The data is automatically gathered by Google and used for their purposes without any dignity.  In the second view, the user decides to subscribe to the Google FreeYourData suite. He is particularly interested in monitoring the data points gathered from Voice Controls. In the third view, the user continues to use Google voice recognition technology but the data is now passed to FreeYourData services. The user can now be compensated for providing his data to the company. In the last view, the user can exchange the accumulated  FYDs for a monetary value. 
             </p>
             <img className={styles.image} src="storyboard.png"/>
             <div className={styles.figureDescriptor}>
-              Storyboard
+              (Figure 16) Storyboard
             </div>
           </div>
 
           {/* mock/prototype ------------------------------------------------------------------------------------------------------------------------------------*/}
-          <div className={styles.section}>
+          <div id="mock" className={styles.section}>
             <h2>Mock and Interactive Prototype</h2>
             <p className={styles.paragraph}> 
             Screen number one seen in the embedded mockup window shows the welcome screen when a user first opens the application. It offers users the option to log into the platform by entering their email and password if they have a pre-existing account or to simply sign up as a new user. 
@@ -270,19 +281,19 @@ class App extends Component {
               <div className={styles.middlePanel}>
                 <img className={styles.smallImage} src="screen1.svg"/>
                 <div className={styles.figureDescriptor}>
-                      View 1
+                     (Figure 17) View 1
                 </div>
               </div>
               <div className={styles.middlePanel}>
                 <img className={styles.smallImage} src="screen2.svg"/>
                 <div className={styles.figureDescriptor}>
-                      View 2
+                (Figure 18) View 2
                 </div>
               </div>
               <div className={styles.middlePanel}>
                 <img className={styles.smallImage} src="screen3.svg"/>
                 <div className={styles.figureDescriptor}>
-                      View 3
+                (Figure 19) View 3
                 </div>
               </div>
             </div>
@@ -300,13 +311,13 @@ class App extends Component {
               <div className={styles.leftPanel}>
               <img className={styles.smallImage} src="screen4.svg"/>
               <div className={styles.figureDescriptor}>
-                      View 4
+              (Figure 20) View 4
                 </div>
               </div>
               <div className={styles.altRightPanel}>
               <img className={styles.smallImage} src="screen5.svg"/>
               <div className={styles.figureDescriptor}>
-                      View 5
+              (Figure 21)  View 5
               </div>
               </div>
             </div>
@@ -324,19 +335,19 @@ class App extends Component {
               <div className={styles.middlePanel}>
                 <img className={styles.smallImage} src="screen6.svg"/>
                 <div className={styles.figureDescriptor}>
-                      View 6
+                (Figure 22) View 6
                 </div>
               </div>
               <div className={styles.middlePanel}>
                 <img className={styles.smallImage} src="screen7.svg"/>
                 <div className={styles.figureDescriptor}>
-                      View 7
+                (Figure 23) View 7
                 </div>
               </div>
               <div className={styles.middlePanel}>
                 <img className={styles.smallImage} src="screen8.svg"/>
                 <div className={styles.figureDescriptor}>
-                      View 8
+                (Figure 24) View 8
                 </div>
               </div>
             </div>
@@ -358,13 +369,13 @@ class App extends Component {
               <div className={styles.leftPanel}>
               <img className={styles.smallImage} src="screen9.svg"/>
               <div className={styles.figureDescriptor}>
-                      View 9
+              (Figure 25) View 9
                 </div>
               </div>
               <div className={styles.altRightPanel}>
               <img className={styles.smallImage} src="screen10.svg"/>
               <div className={styles.figureDescriptor}>
-                      View 10
+              (Figure 26) View 10
               </div>
               </div>
             </div>
@@ -390,20 +401,14 @@ class App extends Component {
           </div>
 
           {/* conclusion ------------------------------------------------------------------------------------------------------------------------------------ */}
-          <div className={styles.section}>
+          {/* <div className={styles.section}>
             <h2>Conclusion</h2>
             <p className={styles.paragraph}>
-              text here 
+              For now this concludes our case study into our research and design of FreeYourData. We hope that this case study will give you greater insight into the need for an online data marketplace, as demonstrated by our research.  
             </p>
-          </div>
+          </div>     */}
 
-          <div className={styles.section}>
-            <h2>References</h2>
-            <p className={styles.paragraph}>
-              text here 
-            </p>
-          </div>
-      
+          <h2>The End, we hope you enjoyed visiting our website!</h2>
           
           <div className={styles.abstraction} >
             *Disclaimer: This was realized as project in UI/UX research for the Concordia Undergraduate course SOEN 357.
