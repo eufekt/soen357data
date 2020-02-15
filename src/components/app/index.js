@@ -16,24 +16,25 @@ class App extends Component {
 
         <div className={styles.logo}>
           <img src="logo.svg"/>
-          <span>FreeYourData</span>
+          <span>Dezignz</span>
         </div>
 
         <div className={styles.navbar}>
-          
           <h4>
-            Dezignz
+            FreeYourData
           </h4>
+        </div>
 
-          <a href="#intro"><h3>Introduction</h3></a>
-          <a href="#research"><h3>Research</h3></a>
-          <a href="#FYDS"><h3>FYDS</h3></a>
-          <a href="#personas"><h3>Personas</h3></a>
-          <a href="#userflow"><h3>User Flow</h3></a>
-          <a href="#sketches"><h3>Sketches</h3></a>
-          <a href="#wireframe"><h3>Wireframe</h3></a>
-          <a href="#storyboard"><h3>Storyboard</h3></a>
-          <a href="#mock"><h3>Mock</h3></a>
+        <div className={styles.sticky}>
+          <a href="#intro">Introduction</a>
+          <a href="#research">Research</a>
+          <a href="#FYDS">FYDS</a>
+          <a href="#personas">Personas</a>
+          <a href="#userflow">User Flow</a>
+          <a href="#sketches">Sketches</a>
+          <a href="#wireframe">Wireframe</a>
+          <a href="#storyboard">Storyboard</a>
+          <a href="#mock">Mock</a>
         </div>
 
         <div className={styles.headerContainer}>
